@@ -1,0 +1,441 @@
+/* Reset styles */
+@font-face {
+  font-family: "San";
+  src: url("Font/GothamMedium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Header styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  padding: 10px 20px;
+  border-bottom: 1px solid #333;
+  z-index: 999;
+}
+
+/* Add margin to the main content to prevent it from overlapping with the fixed header */
+.main-content {
+  margin-top: 70px; /* Adjust the margin-top value to match the height of your header */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.menu a {
+  margin-right: 35px;
+}
+
+.menu a.active {
+  font-weight: bold;
+}
+
+/* Main content styles */
+.main-content {
+  padding: 20px;
+}
+
+.gallery-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+.profile-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.profile {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.profile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.profile img {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -5px; /* Adjust the margin-top value as needed */
+  height: 150px;
+}
+
+/* Gallery styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 200px; /* Adjust the width value as needed */
+  height: 200px; /* Adjust the height value as needed */
+  object-fit: cover;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+.additional-info {
+  font-family: "San";
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px; /* Add this line to set rounded corners */
+  margin-top: 20px;
+  text-align: center;
+  color: #000; /* Set the text color to black */
+  margin-left: auto; /* Align the element to the center */
+  margin-right: auto; /* Align the element to the center */
+}
+
+.business-description{
+  text-align: center;
+  color: #000; /* Set the text color to black */
+  width: 500px; /* Set the width to 500px */
+  margin-left: auto; /* Align the element to the center */
+  margin-right: auto; /* Align the element to the center */
+}
+
+.additional-info p {
+  text-align: center; /* Center align the paragraph */
+}
+
+.additional-info h2 {
+  margin-bottom: 10px;
+}
+
+.additional-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.additional-info ul li {
+  margin-bottom: 5px;
+}
+
+.chatgpt-section {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chatgpt-text {
+  font-family: "San";
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+}
+
+.infoprofile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -25px; /* Adjust the margin-top value as needed */
+  width: 250px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 24px; /* Adjust the font size as needed */
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  line-height: 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.project-link {
+  text-align: center;
+  margin-top: 10px; /* Adjust the margin-top as needed */
+}
+
+.project-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-link a:hover {
+  text-decoration: underline;
+}
+
+/* ... previous CSS code ... */
+
+.project-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.project-description {
+  margin-bottom: 15px;
+  height: 6em; /* Adjust the height value as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.project-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  text-align: center;
+  max-width: 250px;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project-item h3 {
+  margin: 0;
+}
+
+.project-item p {
+  margin: 0;
+  color: #888;
+  height: 3.2em; /* Adjust the height value as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.news-section {
+  text-align: center;
+}
+
+.news-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.news-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.news-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.news-item a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.news-item h3 {
+  margin: 0;
+}
+
+.news-item p {
+  margin: 0;
+  color: #888;
+  height: 3.2em; /* Adjust the height value as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.section-title{
+  color: #000;
+}
+
+.slide-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+.slide-left {
+  animation-name: slideLeft;
+}
+
+.slide-right {
+  animation-name: slideRight;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* ... Existing CSS code ... */
+
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo-footer img {
+  width: 100px;
+  height: 100px;
+}
+
