@@ -1,151 +1,677 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <title>Sandzh Nine</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-  <header class="header">
-    <div class="header-container">
-      <div class="logo">
-        <img src="Images/Sandzh [8691B93].png" alt="Custom Logo">
-        <span>Sandzh's Portfolio</span>
-      </div>
-      <nav class="menu">
-        <a href="#" class="active">Home</a>
-        <a href="#">Gallery</a>
-        <a href="#">About</a>
-      </nav>
-    </div>
-  </header>
+	<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="x-icon" href="images/Sandzh Invert [5695B3A].png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sandzh Nine</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Sandzh Nine Website" />
+	<meta name="keywords" content="Sandzh Nine Website" />
+	<meta name="author" content="Sandzh Nine Website" />
 
-  <main class="main-content">
-    <div class="profile-section">
-      <div class="profile">
-        <div class="profile-background"></div>
-        <img src="Images/Sandy2.jpeg" alt="Profile Photo">
-        <div class="profile-info">
-          <h1>Sandy Fauzi</h1>
-          <div class="infoprofile">
-            <p>Video Editor & 3D VFX Artist</p>
-          </div>
-        </div>
-      </div>
-    </div>
+	
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <div class="additional-info">
-      <h2>Additional Information</h2>
-      <ul>
-        <li><strong>Name:</strong> Sandy Fauzi Amrulloh</li>
-        <li><strong>Nickname:</strong> Sandzh</li>
-        <li><strong>School:</strong> SMKN 1 Sumedang</li>
-        <li><strong>Major:</strong> Electronic Engineering</li>
-        <li><strong>Age:</strong> 17 Years Old</li>
-      </ul>
-      <div class="business-description">
-        <p>I am a freelance video editor specializing in creating stunning and engaging video content. With years of experience and a passion for visual storytelling, I bring your ideas to life through captivating videos.</p>
-      </div>
-    </div>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <h2 class="gallery-title">My Gallery</h2>
-    <div class="gallery">
-      <div class="gallery-item">
-        <img src="Images/Screenshot (157).png" alt="Image 1">
-        <div class="project-link">
-          <h3 class="project-te">Kakashi</h3>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="Images/Screenshot (158).png" alt="Image 2">
-        <div class="project-link">
-          <h3 class="project-te">Obito</h3>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="Images/Screenshot (159).png" alt="Image 3">
-        <div class="project-link">
-          <h3 class="project-te">Madara</h3>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ArqnUYrw7bg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vjhDPQRwrMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0cGKoYsWjgw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-      <!-- Add more gallery items and project links as needed -->
-    </div>
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-    <div class="chatgpt-section">
-      <p class="chatgpt-text">I Made this Website by ChatGPT</p>
-    </div>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-    <div class="project-section">
-      <h2 class="section-title">My Projects</h2>
-      <div class="project-items">
-        <div class="project-item">
-          <img src="Images/Screenshot (162).png" alt="Project 1">
-          <h3 class="project-title">Step 1</h3>
-          <p class="project-description">Making of 3D Avatar from avatarsdk.com</p>
-        </div>
-        <div class="project-item">
-          <img src="Images/Screenshot (163).png" alt="Project 2">
-          <h3 class="project-title">Step 2</h3>
-          <p class="project-description">Learn how to make a simple room inside SketchUp</p>
-        </div>
-        <div class="project-item">
-          <img src="Images/Screenshot (161).png" alt="Project 3">
-          <h3 class="project-title">Step 3</h3>
-          <p class="project-description">Add interior, textures, composite inside Blender</p>
-        </div>
-      </div>
-    </div>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<h1><span>Sandy Fauzi</span></h1>
+							<h3><span>Video Editor, Graphic Design & 3D VFX Artist</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="http://youtube.com/c/SandzhNine"><i class="icon-youtube"></i></a></li>
+									<li><a href="https://www.instagram.com/sandzh_/"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="http://wa.me/+6281295710325"><i class="icon-whatsapp"></i></a></li>
+									<li><a href="https://github.com/SandzhNine"><i class="icon-github2"></i></a></li>
+								</ul>
+							</p>
+							<div class="logo">
+								<img src="images/Sandzh [8691B93].png" alt="Logo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-    <div class="news-section">
-      <h2 class="news-title">Metaverse Project</h2>
-      <div class="news-items">
-        <div class="news-item">
-          <a href="#">
-            <img src="Images/Screenshot (166).png" alt="News 1">
-            <h3></h3>
-          </a>
-        </div>
-        <div class="news-item">
-          <a href="https://hubs.mozilla.com/9vxJ2cs/sandzhs-meeting-room-at-modern-saung/">
-            <img src="Images/Screenshot (168).png" alt="Sandzh's Meeting Room">
-            <h3>Sandzh's Meeting Room</h3>
-          </a>
-        </div>
-        <div class="news-item">
-          <a href="#">
-            <img src="Images/Screenshot (167).png" alt="News 3">
-            <h3></h3>
-          </a>
-        </div>
-      </div>
-    </div>
-  </main>
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Sandy Fauzi Amrulloh</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+6281295710325</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">sandzhstudios9@ondrive.me</span></li>
+						<li><span class="first-block">School:</span><span class="second-block">Vocational High School of Sumedang</span></li>
+						<li><span class="first-block">Major:</span><span class="second-block">Electronic Engineering</span></li>
+						<li><span class="first-block">Age:</span><span class="second-block">17 Years Old</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>I am a freelance video editor and graphic designer with a passion for creating visually captivating and engaging video content. With years of experience in the field, I bring your ideas to life through expert editing techniques, seamless transitions, and careful attention to detail. Whether it's a promotional video, a documentary, or a creative project, I work tirelessly to deliver videos that not only capture attention but also leave a lasting impact on the audience.</p>
+					<p>Additionally, my background in physics adds a unique dimension to my video editing skills. With a keen eye for aesthetics and an understanding of scientific principles, I incorporate visually appealing elements and dynamic effects into my videos. By combining technical expertise with creative vision, I strive to produce videos that not only tell compelling stories but also visually and intellectually engage viewers, making a lasting impression.</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="http://youtube.com/c/SandzhNine"><i class="icon-youtube"></i></a></li>
+							<li><a href="https://www.instagram.com/sandzh_/"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="http://wa.me/+6281295710325"><i class="icon-whatsapp"></i></a></li>
+							<li><a href="https://github.com/SandzhNine"><i class="icon-github2"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <footer class="footer">
-    <div class="social-media">
-      <a href="http://youtube.com/c/SandzhNine" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-youtube"></i>
-      </a>
-      <a href="https://www.instagram.com/sandzh_/" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="http://wa.me/+6281295710325" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-      <a href="https://github.com/SandzhNine" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="logo-footer">
-      <img src="Images/Sandzh [8691B93].png" alt="Logo">
-    </div>
-    <p>&copy; 2023 Sandzh's Portfolio. All rights reserved.</p>
-  </footer>
-</body>
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Content Creator</h3>
+									<span class="company">Instagram 2020 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>I have been passionately creating AMV content since 2020, and the journey has been incredibly fulfilling. As an AMV content creator, I have been able to combine my love for anime and music, bringing them together in captivating visual experiences. Throughout this time, I have honed my skills in video editing and storytelling, striving to create unique and engaging AMVs that resonate with viewers. It has been an amazing ride, and I am excited to continue pushing the boundaries of creativity in my AMV creations.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Student Council Editor Division</h3>
+									<span class="company">School Student Council 2020 - 2023</span>
+								</div>
+								<div class="timeline-body">
+									<p>I have had the privilege of working in the Information and Technology division of the Student Council, serving as a video editor and graphic designer. It has been an incredible experience combining my passion for technology and creativity. In this role, I have been responsible for creating visually appealing designs and editing videos to effectively communicate the council's message. Collaborating with fellow council members, I have contributed to various projects, including promotional videos, event coverage, and social media campaigns. This opportunity has not only allowed me to enhance my technical skills but also taught me the importance of teamwork and effective communication. I am grateful for the chance to make a meaningful impact through my work and contribute to the success of the Student Council.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Beginner Freelancer</h3>
+									<span class="company">2021 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>As a beginner freelance video editor and graphic designer, I have embarked on an incredible journey of honing my skills and exploring the world of creative content. Each project I undertake is an opportunity to learn, grow, and showcase my passion for visual storytelling. With every client interaction, I strive to deliver captivating videos and stunning graphic designs that exceed expectations. It's an exhilarating experience to see my work come to life and make a positive impact. I am excited to continue this journey, refining my craft and creating memorable experiences for clients.</p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Elementary School</h3>
+									<span class="company">Sukamaju - 2012 - 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>Elementary School Sukamaju Sumedang was an amazing experience for me. The teachers were caring and the environment was welcoming. I learned a lot and made great friends. It was a place where I had a lot of fun and grew as a person.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Junior High School</h3>
+									<span class="company">Junior High School 1 of Sumedang - 2018 - 2021</span>
+								</div>
+								<div class="timeline-body">
+									<p>I had a great experience at Junior High School 1 of Sumedang in the superior class. The school provided a supportive and challenging environment where I learned and grew alongside talented classmates. The teachers were dedicated and helped me excel academically. It was a memorable time of learning and making friends.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Vocational High School</h3>
+									<span class="company">Vocational High School 1 of Sumedang - 2021 - 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>I attended Vocational High School 1 of Sumedang, studying electronic engineering. The school provided practical training and valuable courses to equip me for a career in the field. The teachers were dedicated, and I gained essential skills and knowledge. It was an exciting journey of learning and exploring electronics.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Next University Goal</h3>
+									<span class="company">Bandung Insitute of Technology</span>
+								</div>
+								<div class="timeline-body">
+									<p>Institut Teknologi Bandung is the first technical university in Indonesia that was established on March 2, 1959 in West Java, with a mission to serve science and technology to develop the nation. Born in an atmosphere full of dynamics based on the spirit of the struggle for the Proclamation of Independence, ITB is here to optimize the development of an advanced and dignified nation.</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Services</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-video"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Video Editing</h3>
+								<p>Almost every video style i can make such as presentation video, documentary video, short film, etc.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-paintbrush"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Graphic Design</h3>
+								<p>All Graphic design such as poster, typography, logo, etc.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-video"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>3D VFX</h3>
+								<p>I can make a 3D VFX Compositing such as CGI, Animation, VFX, etc.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-4 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-camera"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Videography & Photography</h3>
+								<p>Not only video editing i'm also good at Videography and Photography.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-genius"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Electronic Engineering</h3>
+								<p>As a student of Electronic Engineering i'm also good at microcontroller progamming.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-eye"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Programming</h3>
+								<p>This is still my plan to start, but i will start to learn and improve my programming skill.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="100"><span><strong>Editing Video</strong>100%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Graphic Design</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85%"><span><strong>3D VFX</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="80"><span><strong>Videography & Photography</strong>80%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Electronic Engineering</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Mathematics</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Physics</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="25"><span><strong>Web Programming</strong>25%</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Video Editing</span><span class="value-right">100%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Graphic Design</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">3D VFX</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Videography & Photography</span><span class="value-right">80%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Electronic Engineering</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Mathematics</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Physics</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Web Programming</span><span class="value-right">25%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Work</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+						<div class="desc">
+							<h3>Obito in 3D</h3>
+							<span>Made in Blender</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+						<div class="desc">
+							<h3>Kakashi in 3D</h3>
+							<span>Made in Blender</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://www.instagram.com/p/Cs6YgdqOh-7/" class="work" style="background-image: url(images/portfolio-3.jpg);">
+						<div class="desc">
+							<h3>Madara Susanoo in 3D</h3>
+							<span>Made in Blender</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://www.instagram.com/p/CqkvXyOJmSY/" class="work" style="background-image: url(images/portfolio-4.jpg);">
+						<div class="desc">
+							<h3>Kurama in 3D</h3>
+							<span>Made in Blender</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://youtu.be/tYJ0yG1gpZM" class="work" style="background-image: url(images/Screenshot\ \(174\).png);">
+						<div class="desc">
+							<h3>Podcast Video</h3>
+							<span>Premiere Pro</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://youtu.be/mofu_yM3cQc" class="work" style="background-image: url(images/Screenshot\ \(177\).png);">
+						<div class="desc">
+							<h3>School Birthday Video Recap</h3>
+							<span>Premiere Pro, After Effects and Blender</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://youtu.be/vjhDPQRwrMw" class="work" style="background-image: url(images/Screenshot\ \(175\).png);">
+						<div class="desc">
+							<h3>Manga Animation</h3>
+							<span>After Effects</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://youtu.be/0cGKoYsWjgw" class="work" style="background-image: url(images/Screenshot\ \(176\).png);">
+						<div class="desc">
+							<h3>Anime Music Video</h3>
+							<span>After Effects & Blender</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://www.instagram.com/p/Ch45u21vyh5/" class="work" style="background-image: url(images/Stiker\ [A2BD62E].png);">
+						<div class="desc">
+							<h3>59Th School Birthday Logo</h3>
+							<span>Illustrator</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/Sekbid\ 9\ [AD582FE].png);">
+						<div class="desc">
+							<h3>Division 9 Student Council</h3>
+							<span>Alight Motion</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/Screenshot\ 2023-06-05\ 213939.png);">
+						<div class="desc">
+							<h3>Poster Design</h3>
+							<span>Illustrator</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/Poster\ Theater\ 1.png);">
+						<div class="desc">
+							<h3>Film Poster</h3>
+							<span>Photoshop and After Effects</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Gear</h2>
+					<p>My Gear for Work</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="https://www.lenovo.com/id/in/laptops/legion/legion-y-series/IdeaPad-Gaming-3-15IHU6/p/88IPG301588" class="blog-bg" style="background-image: url(images/Lenovo-IdeaPad-Gaming-3-15ARH05.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Laptop</span>
+							<h3><a href="#">Lenovo Ideapad Gaming 3</a></h3>
+							<p>With Ryzen 5 4600H and Geforce GTX 1650 Ti</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="https://www.lenovo.com/id/in/laptops/legion/legion-y-series/IdeaPad-Gaming-3-15IHU6/p/88IPG301588">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="https://www.iqoo.com/id/products/param/z7-5g" class="blog-bg" style="background-image: url(images/Iqoo2.webp);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Smartphone</span>
+							<h3><a href="#">IQOO Z7</a></h3>
+							<p>With Snapdragon 782G and Can Record in 4K log profile</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="https://www.iqoo.com/id/products/param/z7-5g">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="https://www.sony.co.id/id/interchangeable-lens-cameras/products/ilme-fx30" class="blog-bg" style="background-image: url(images/Sony-FX30-4.webp);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Camera (Coming Soon)</span>
+							<h3><a href="#">Sony FX30</a></h3>
+							<p>Coming Soon Gear Goal (I want to upgrade my services)</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="https://www.sony.co.id/id/interchangeable-lens-cameras/products/ilme-fx30">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Contact Me!</h2>
+					<p>If u need my services just contact me in my social media</p>
+					<p><a href="instagram.com/sandzh_" class="btn btn-default btn-lg">Contact Me</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url(images/Sandzh\ [63B2DA1].png);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="#">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary">
+				</div>
+
+			</form>	
+		</div>
+	</div>
+
+	<div id="map" class="fh5co-map"></div>
+	</div>
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; 2023, Sandzh <br> <a href="#" target="_blank"></a> <a href="#" target="_blank"></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
